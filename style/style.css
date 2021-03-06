@@ -59,7 +59,7 @@ p{
 	min-width: 220px;
 	position: relative;
 	animation-name: slidein;
-	animation-duration: 8s;
+	animation-duration: 13s;
 	animation-delay: 2s;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in-out;
@@ -76,6 +76,7 @@ p{
 	padding-left: 17%;
 	padding-right: 17%;
 	color: white;
+	position: relative;
 }
 
 .button:hover{
@@ -83,6 +84,8 @@ p{
 	color: white;
 	transition: 0.5s;
 	background: #12BBB5;
+	box-shadow: 3px 5px 10px black;
+	top: 2px;
 }
 
 .container__section{
@@ -634,22 +637,22 @@ a{cursor:pointer;}
 		opacity: 1;
 	}
 
-	16%{
+	10%{
 		transform: rotateY(90deg);
 		opacity: 0;
 	}
 
-	33%{
+	20%{
 		transform: rotateY(180deg);
 		opacity: 1;
 	}
 	
-	50%{
+	30%{
 		transform: rotateY(270deg);
 		opacity: 0;
 	}
 
-	67%{
+	35%{
 		transform: rotateY(360deg);
 		opacity: 1;
 	}
