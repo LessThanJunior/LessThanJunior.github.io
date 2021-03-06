@@ -62,7 +62,7 @@ p{
 	animation-duration: 13s;
 	animation-delay: 2s;
 	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
+	animation-timing-function: cubic-bezier(0.6, -0.28, 0.74, 0.05)
 	/*animation-direction: alternate;*/
 	/*animation-fill-mode: forwards;*/
 }
