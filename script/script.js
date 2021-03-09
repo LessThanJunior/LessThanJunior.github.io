@@ -78,7 +78,7 @@ img8.onclick = function(){
 	document.body.classList.add("lock");
 }
 
-window.onkeydown = function(event){
+window.onkeyup = function(event){
 	if(event.code === 'Escape'){
 		modal.style.display="none";
 		document.body.classList.remove("lock")
