@@ -683,6 +683,8 @@ a{cursor:pointer;}
 	max-height: 80%;
 	max-width: 800px;
 	display: block;
+	animation-name: zoom;
+	animation-duration: 1s;
 }
 
 .lock{
@@ -696,4 +698,13 @@ a{cursor:pointer;}
 	color: #f1f1f1;
 	font-size: 40px;
 	cursor: pointer;
+}
+
+@keyframes zoom{
+	0%{
+		transform: scale(0,0);
+	}
+	100%{
+		transform: scale(1,1);
+	}
 }
